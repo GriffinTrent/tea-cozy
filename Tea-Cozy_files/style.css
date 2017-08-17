@@ -1,0 +1,21 @@
+.container{
+	display: flex;
+}
+
+.header{
+	background-color: black;
+	width: 100%;
+	z-index: 20;
+	flex-direction: row;
+	color: white;
+	text-decoration: underline;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header img{
+	height: 50px;
+	margin: 10px;
+	justify-content: flex-start;
+}
